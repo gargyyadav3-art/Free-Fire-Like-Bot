@@ -9,9 +9,9 @@ from flask import Flask, request, jsonify
 import logging
 import sys
 # ╔══════════════════════════════════════════════════════════════════╗
-# ║  CREATOR: TARIKUL ISLAM
-# ║  TELEGRAN: https://t.me/paglu_dev
-# ║  PERSONAL TELEGRAM: https://t.me/itzpaglu
+# ║  CREATOR: IMPULSE 
+# ║  TELEGRAN: https://t.me/+KMUReX93h-AzNGI1
+# ║  PERSONAL TELEGRAM: t.me/Killerflus
 # ╚══════════════════════════════════════════════════════════════════╝
 
 # Configure logging
@@ -22,16 +22,16 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # === CONFIG ===
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8665549165:AAGX1bqKdTX3tpF4Ncbq5gDoSxw2MKXcKLI")
 
 if not BOT_TOKEN:
     logger.error("❌ BOT_TOKEN not found! Please set your bot token in environment variables.")
     sys.exit(1)
 
-REQUIRED_CHANNELS = ["@your channel username"]
-GROUP_JOIN_LINK = "https://t.me/your_group_link"
-OWNER_ID = your tg user id (integer)    #Example: 6282811167
-OWNER_USERNAME = "@your username"
+REQUIRED_CHANNELS = ["peace_giveaway"]
+GROUP_JOIN_LINK = "https://t.me/+Q24EQHgupUVkYzY1"
+OWNER_ID = your tg user id (8575755583)
+OWNER_USERNAME = "@Killerflus"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 like_tracker = {}   # in-memory cache
